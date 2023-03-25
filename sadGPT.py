@@ -8,8 +8,6 @@ hide_menu_style = """
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
-from annotated_text import annotated_text
-annotated_text(("sadGPT","#faa"))
 st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
 quote=st.text_input("What is purpose of Life?", "Purpose of Life is to have no Purpose.")
 st.write("Trying transformer on...")
